@@ -28,7 +28,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     } elseif($model->status === 'f') {
                         return 'Fail';
                     } else {
-                        return 'Uncomplated';
+                        return 'Uncompleted';
                     }
                 }
             ],
